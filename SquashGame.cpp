@@ -147,8 +147,8 @@ void move(int ch)
 	
 	if(ch == 0 || ch == 0xE0) {
 		ch = getch();
-		isMainPlayer = TRUE;	// 아마 키보드가 눌렸을 때 각각의 방향키를 W,A,D 로 바꾸는 과정인 것 같다.
-	} else {					// 나도 기억이 안 난다.
+		isMainPlayer = TRUE;	
+	} else {					
 		switch(ch) {
 			case W:
 				ch = UP;
